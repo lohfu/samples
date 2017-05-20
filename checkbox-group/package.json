@@ -1,0 +1,26 @@
+{
+  "name": "sample-checkbox-group",
+  "version": "0.0.1",
+  "description": "",
+  "main": "action.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Linus Miller <lohfu@lohfu.io> (https://lohfu.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^1.1.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "lowline": "^0.1.4"
+  }
+}
